@@ -12,3 +12,7 @@ python setup.py develop
 streamlit run app.py
 ```
 should automatically open browser at localhost:8501
+
+The ```tmp/code2jdoc.json``` contains code examples, predictions, ground truth references and bleu scores obtained during validation and testing.
+
+You can give these on the website to check.

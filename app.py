@@ -1,7 +1,10 @@
 import streamlit as st
 import os
 import time
+import re
 
+def preprocess(message):
+    return message.translate({ord(c): None for c in '.,\'\":;)(!\n\t'})
 
 def predict(message):
     #os.system("cd scripts")
@@ -23,6 +26,7 @@ st.header("CS305 Software Engineering Mini Project")
 st.subheader("Sai Sree Harsha (181CO146) & Aditya Sohoni (181CO203)")
 st.title("Automating Code Documentation using Machine Learning")
 message = st.text_area("Enter Code Below", height=350)
+message = preprocess(message)
 if st.button("Analyze"):
     with st.spinner("Analyzing the text …"):
         prediction = predict(message)

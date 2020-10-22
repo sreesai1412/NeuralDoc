@@ -1,4 +1,4 @@
-# AutoDoc
+# NeuralDoc
 
 Download trained model from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place it in ```/tmp``` folder.
 

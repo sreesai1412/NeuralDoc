@@ -8,7 +8,7 @@ Our website is live at https://bit.ly/34HXMhv
 
 ## For Running Locally
 
-Download pre-trained models from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place it in ```/tmp``` and ```/tmp2``` folders.
+Download pre-trained models from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place it in ```/tmp``` and ```/tmp2``` folders. Rename both models as ```code2jdoc.mdl``` within the 2 folders.
 
 Create python virtual environment, inside that
 
@@ -21,4 +21,4 @@ should automatically open browser at localhost:8501
 
 The ```tmp/code2jdoc.json``` and ```tmp2/code2jdoc.json``` contain code examples, predictions, ground truth references and bleu scores obtained during validation and testing.
 
-You can give these on the website to check.
+These can be given on the website to check.

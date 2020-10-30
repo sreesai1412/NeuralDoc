@@ -2,7 +2,7 @@
 
 Automating Source Code Documentation using Machine Learning
 
-## Live Website
+## Website
 
 Our website is live at https://bit.ly/34HXMhv
 

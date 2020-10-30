@@ -1,12 +1,14 @@
 # NeuralDoc
 
+Automating Source Code Documentation using Machine Learning
+
 ## Live Website
 
 Our website is live at https://bit.ly/34HXMhv
 
 ## For Running Locally
 
-Download trained models from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place it in ```/tmp``` and ```/tmp2``` folders.
+Download pre-trained models from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place it in ```/tmp``` and ```/tmp2``` folders.
 
 Create python virtual environment, inside that
 

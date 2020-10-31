@@ -10,7 +10,7 @@ Our website is live at https://bit.ly/34HXMhv
 
 Download the 2 pre-trained model files from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place the ```python2doc.mdl``` file in the ```/tmp_python``` folder and ```java2doc.mdl``` file in the ```/tmp_java``` folder.
 
-Create python virtual environment and activate it
+Create Python 3.7 virtual environment and activate it
 ```
 python3 -m venv nldoc
 
@@ -18,7 +18,7 @@ source nldoc/bin/activate
 ```
 Clone the repo
 ```
-git clone 
+git clone https://github.com/sreesai1412/NeuralDoc.git 
 
 cd NeuralDoc
 ```

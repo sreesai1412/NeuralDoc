@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 streamlit run app.py
 ```
-should automatically open browser at localhost:8501
+The website can then be found at http://localhost:8501
 
 The JSON files in ```/tmp_python``` and ```/tmp_java``` folders contain code examples, predictions, ground truth references and bleu scores obtained during validation and testing.
 

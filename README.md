@@ -8,10 +8,21 @@ Our website is live at https://bit.ly/34HXMhv
 
 ## For Running Locally
 
-Download pre-trained models from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place it in ```/tmp``` and ```/tmp2``` folders. Rename both models as ```code2jdoc.mdl``` within the 2 folders.
+Download the 2 pre-trained model files from https://drive.google.com/drive/folders/1V2wFX3pf9SGuN9YRQxNOCnebS3hI6PHz?usp=sharing and place the ```python2doc.mdl``` file in the ```/tmp_python``` folder and ```java2doc.mdl``` file in the ```/tmp_java``` folder.
 
-Create python virtual environment, inside that
+Create Python 3.7 virtual environment and activate it
+```
+python3 -m venv nldoc
 
+source nldoc/bin/activate 
+```
+Clone the repo
+```
+git clone https://github.com/sreesai1412/NeuralDoc.git 
+
+cd NeuralDoc
+```
+Install requirements and run app
 ```
 pip install -r requirements.txt
 
@@ -19,6 +30,6 @@ streamlit run app.py
 ```
 should automatically open browser at localhost:8501
 
-The ```tmp/code2jdoc.json``` and ```tmp2/code2jdoc.json``` contain code examples, predictions, ground truth references and bleu scores obtained during validation and testing.
+The JSON files in ```/tmp_python``` and ```/tmp_java``` folders contain code examples, predictions, ground truth references and bleu scores obtained during validation and testing.
 
 These can be given on the website to check.

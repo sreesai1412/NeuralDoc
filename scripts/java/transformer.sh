@@ -8,7 +8,7 @@ function make_dir () {
 
 SRC_DIR=../..
 DATA_DIR=${SRC_DIR}/data
-MODEL_DIR=${SRC_DIR}/tmp
+MODEL_DIR=${SRC_DIR}/tmp_java
 
 make_dir $MODEL_DIR
 

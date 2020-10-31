@@ -3,8 +3,10 @@ import os
 import time
 import re
 
+
 def preprocess(message):
     return message.translate({ord(c): None for c in '.,\'\":;)(!\n\t'})
+
 
 def _max_width_():
     max_width_str = f"max-width: 1300px;"
@@ -20,13 +22,13 @@ def _max_width_():
     )
 
 
-def predict(message):
+def predict_python(message):
     #os.system("cd scripts")
     f = open("./data/python/sample.code", "w")
     f.write(message)
     f.close()
     print("Wrote code to file" + message)
-    os.system("bash ./scripts/generate.sh -1 code2jdoc sample.code")
+    os.system("bash ./scripts/generate_python.sh -1 python2doc sample.code")
     # time.sleep(10)
     f = open("pred.txt", "r")
     doc = f.read()
@@ -34,13 +36,13 @@ def predict(message):
     return doc
 
 
-def predict2(message):
+def predict_java(message):
     #os.system("cd scripts")
     f = open("./data/java/sample.code", "w")
     f.write(message)
     f.close()
     print("Wrote code to file" + message)
-    os.system("bash ./scripts/generate2.sh -1 code2jdoc sample.code")
+    os.system("bash ./scripts/generate_java.sh -1 java2doc sample.code")
     # time.sleep(10)
     f = open("pred.txt", "r")
     doc = f.read()
@@ -60,13 +62,12 @@ with col1:
     message = st.text_area("Enter Python Code Below", height=350)
     if st.button("Analyze", key='py'):
         with st.spinner("Documenting Code, Please Wait ......."):
-            prediction = predict(message)
+            prediction = predict_python(message)
             st.success(prediction)
 
 with col3:
     message = st.text_area("Enter Java Code Below", height=350)
     if st.button("Analyze", key='java'):
         with st.spinner("Documenting Code, Please Wait ......."):
-            prediction = predict2(message)
+            prediction = predict_java(message)
             st.success(prediction)
-

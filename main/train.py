@@ -474,9 +474,10 @@ def eval_accuracies(hypotheses, references, copy_info, sources=None,
             logobj['rouge_l'] = ind_rouge[key]
             fw.write(json.dumps(logobj) + '\n')
 
-    if fw: fw.close()
+    if fw:
+        fw.close()
     return bleu * 100, rouge_l * 100, meteor * 100, precision.avg * 100, \
-           recall.avg * 100, f1.avg * 100
+        recall.avg * 100, f1.avg * 100
 
 
 # ------------------------------------------------------------------------------

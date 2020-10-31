@@ -8,13 +8,9 @@ Our website is live at https://bit.ly/34HXMhv
 
 ### Screenshots
 
-<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/1.png" width="650" height="350" />
+<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/3.png" width="850" height="550" />
 
-<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/2.png" width="650" height="350" />
-
-<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/3.png" width="650" height="350" />
-
-<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/4.png" width="650" height="350" />
+<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/4.png" width="850" height="550" />
 
 ## For Running Locally
 

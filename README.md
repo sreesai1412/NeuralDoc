@@ -8,9 +8,11 @@ Our website is live at https://bit.ly/34HXMhv
 
 ### Screenshots
 
-<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/3.png" width="850" height="550" />
+1. Our system, NeuralDoc documenting a Python code snippet
+<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/3.png" width="750" height="450" />
 
-<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/4.png" width="850" height="550" />
+2. Our system, NeuralDoc documenting a Java code snippet
+<img src="https://github.com/sreesai1412/NeuralDoc/blob/main/screeshots/4.png" width="750" height="450" />
 
 ## For Running Locally
 

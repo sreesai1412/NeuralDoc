@@ -1,4 +1,4 @@
-__author__ = 'wasi'
+__author__ = 'harsha'
 
 from .bleu import *
 from .bleu_scorer import *

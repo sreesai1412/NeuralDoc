@@ -257,7 +257,7 @@ class BleuScorer(object):
             bleus.append(bleu ** (1. / (k + 1)))
         ratio = (self._testlen + tiny) / (self._reflen + small)  ## N.B.: avoid zero division
 
-        # modification by Wasi Ahmad
+        # modification by harsha Ahmad
         if ratio > 1.0:
             bp = 1.
         else:

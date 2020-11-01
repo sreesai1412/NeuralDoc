@@ -1,3 +1,3 @@
-__author__ = 'wasi'
+__author__ = 'harsha'
 
 from .rouge import *

@@ -1,4 +1,4 @@
-__author__ = 'wasi'
+__author__ = 'harsha'
 
 from .char_embedding import *
 from .copy_generator import *

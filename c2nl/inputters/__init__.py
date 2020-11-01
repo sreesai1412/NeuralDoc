@@ -1,4 +1,4 @@
-__author__ = 'wasi'
+__author__ = 'harsha'
 
 from .dataset import *
 from .vector import *

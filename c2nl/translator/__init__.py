@@ -1,4 +1,4 @@
-__author__ = 'wasi'
+__author__ = 'harsha'
 
 from .beam import *
 from .penalties import *

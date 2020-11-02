@@ -54,7 +54,7 @@ if [ -f "$FILE" ]; then
 else
     echo "$FILE does not exist."
     fileId=13bLuYqeFIh_830H1qVWxCiMAxEno6gG3
-    fileName=code2jdoc.mdl
+    fileName=java2doc.mdl
     curl -sc /tmp/cookie "https://drive.google.com/uc?export=download&id=${fileId}" > /dev/null
     code="$(awk '/_warning_/ {print $NF}' /tmp/cookie)"
     curl -Lb /tmp/cookie "https://drive.google.com/uc?export=download&confirm=${code}&id=${fileId}" -o ${fileName}

@@ -4,4 +4,4 @@ nltk
 prettytable
 torch==1.4.0
 psutil
-streamlit
+streamlit==0.75.0

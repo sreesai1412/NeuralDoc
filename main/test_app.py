@@ -7,6 +7,7 @@ sys.path.append("..")
 
 import os
 import json
+import numpy as np
 import torch
 import logging
 import subprocess

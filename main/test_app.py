@@ -7,12 +7,11 @@ sys.path.append("..")
 
 import os
 import json
-# import numpy as np
-# import torch
+import torch
 import logging
 import subprocess
 import argparse
-# import numpy as np
+import numpy as np
 
 import c2nl.config as config
 import c2nl.inputters.utils as util

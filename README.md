@@ -4,8 +4,6 @@ Automating Source Code Documentation using Machine Learning
 
 ## Website
 
-Our website is live at https://bit.ly/34HXMhv
-
 ### Screenshots
 
 1. Our system, NeuralDoc documenting a Python code snippet
